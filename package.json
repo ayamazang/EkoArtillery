@@ -1,0 +1,23 @@
+{
+  "name": "eko-artillery",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "artillery": "./node_modules/.bin/./artillery -V"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "artillery": "git+https://github.com/karrung/artillery.git",
+    "bluebird": "^3.5.2",
+    "co": "^4.6.0",
+    "faker": "^4.1.0",
+    "fs-extra": "^7.0.0",
+    "mime-types": "^2.1.21",
+    "moment": "^2.22.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
