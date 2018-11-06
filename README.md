@@ -1,13 +1,13 @@
 # EkoArtillery
-Use artillery connect with `Eko` for mocking data.
+Use artillery connect with `EKO` for mocking data.
 
 ## Prerequisite
 - Node version 8+
 
 
 ## Installation
-- Clone
-- Run
+- Clone repository
+- Install NPM
 ```
   npm install
   npm install git://github.com/karrung/artillery.git
@@ -22,7 +22,7 @@ Use artillery connect with `Eko` for mocking data.
 - (Optional) Set media
   - Set images into `images_example`
   - Set files into `files_example`
-  - run `node prerequisite-data/scripts/prepare-file.js`
+  - Run `node prerequisite-data/scripts/prepare-file.js`
 
 ## Run development
 - Create `<script>.yml`
@@ -33,6 +33,10 @@ Use artillery connect with `Eko` for mocking data.
 ```
 
 ### Example
+- Run artillery
+```
+  ./node_modules/.bin/artillery run card-create.yml
+```
 - Run artillery with environments
 ```
   ./node_modules/.bin/artillery run -e local02 card-create.yml
