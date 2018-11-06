@@ -1,0 +1,22 @@
+[{
+	"key": "83aa09c751a24ccb913d7d5abefbbf31",
+	"meta": {
+		"filename": "file_example_doc",
+		"size": 224768,
+		"mimetype": "application/msword"
+	}
+}, {
+	"key": "62de6af80adb4485b6367f058511b9e8",
+	"meta": {
+		"filename": "file_example_gif",
+		"size": 407297,
+		"mimetype": "image/gif"
+	}
+}, {
+	"key": "a3acb3cc0be4494294ff4c60e8b73cf5",
+	"meta": {
+		"filename": "file_example_html",
+		"size": 4130,
+		"mimetype": "text/html"
+	}
+}]

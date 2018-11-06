@@ -1,0 +1,60 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Sample Default index.html File</title><link href="stylesheet.css" rel="stylesheet" type="text/css"><meta content="DocBook XSL Stylesheets V1.74.0" name="generator"><meta name="keywords" content="vFabric tc Server, tc Runtime instance, Apache Tomcat, Web application server, deploy servlets JSP WAR JAR, Spring Framework, tutorial, simple helloworld web application, VMware"><link rel="home" href="index.html" title="Getting Started with vFabric tc Server"><link rel="up" href="tutwebapp.html" title="Tutorial: Very Simple HelloWorld Web Application"><link rel="prev" href="tutwebapp-web-xml-file.html" title="Sample web.xml File"><link rel="next" href="tutwebapp-ant-build-file.html" title="Ant Build File to Compile and Package the Example">
+<script type="text/javascript" src="../../../advanced/synchWithToc.js"></script>
+<script type="text/javascript">
+<!--
+var uppath="../../../";
+-->
+</script>
+
+<link rel="stylesheet" href="../content/PLUGINS_ROOT/org.eclipse.help.webapp/advanced/breadcrumbs.css" charset="ISO-8859-1" type="text/css"></link>
+<script type="text/javascript" src="../content/PLUGINS_ROOT/org.eclipse.help/livehelp.js"> </script>
+<link rel="stylesheet" href="../content/PLUGINS_ROOT/com.vmware.ICbase/CSS/topic.css" type="text/css"></link>
+
+<script type="text/javascript">if( self == top ){ window.location.replace( "../../../index.jsp?topic=/com.vmware.vfabric.tc-server.2.8/getting-started/tutwebapp-index-html-file.html");}</script>
+<script type="text/javascript">
+<!--
+if (parent.ContentToolbarFrame && parent.ContentToolbarFrame.setButtonState) parent.ContentToolbarFrame.setButtonState("toggle_highlight","hidden");
+-->
+</script>
+
+</head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+
+<script type="text/javascript">
+<!--
+if (parent.ContentToolbarFrame && parent.ContentToolbarFrame.setButtonState) { 
+parent.ContentToolbarFrame.setButtonState('back','off');
+parent.ContentToolbarFrame.setButtonState('forward','off');
+}
+-->
+</script><div class="help_breadcrumbs"><a href="../../../topic/com.vmware.vfabric.tc-server.2.8/index.html">vFabric tc Server 2.8</a> > <a href="../../../topic/com.vmware.vfabric.tc-server.2.8/getting-started/about.html">Getting Started with vFabric tc Server</a> > <a href="../../../topic/com.vmware.vfabric.tc-server.2.8/getting-started/tutwebapp.html">Tutorial: Very Simple HelloWorld Web Application</a><!-- --></div>
+<div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="tutwebapp-index-html-file"></a>Sample Default index.html File</h2></div></div></div><p>The following sample <code class="code">index.html</code> file is the default
+    HTML file that appears in a browser when a user invokes the HelloWorld Web
+    application. The <code class="code">index.html</code> file in turn invokes both the
+    <code class="code">hello.jsp</code> JSP and HelloServlet servlet.</p><p>The <code class="code">index.html</code> file invokes the JSP by linking to its
+    name (<code class="code">hello.jsp</code>). The HTML file invokes the servlet by
+    linking to its URL pattern (<code class="code">/hello</code>).</p><pre class="programlisting">&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Sample "Hello, World" Application&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body bgcolor=white&gt;
+
+    &lt;table border="0" cellpadding="10"&gt;
+      &lt;tr&gt;
+        &lt;td&gt;
+          &lt;img src="images/springsource.png"&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+          &lt;h1&gt;Sample "Hello, World" Application&lt;/h1&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+
+    &lt;p&gt;This is the home page for the HelloWorld Web application. &lt;/p&gt;
+    &lt;p&gt;To prove that they work, you can execute either of the following links:
+    &lt;ul&gt;
+      &lt;li&gt;To a &lt;a href="hello.jsp"&gt;JSP page&lt;/a&gt;.
+      &lt;li&gt;To a &lt;a href="hello"&gt;servlet&lt;/a&gt;.
+    &lt;/ul&gt;
+
+  &lt;/body&gt;
+&lt;/html&gt;</pre></div></body></html>

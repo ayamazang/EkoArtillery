@@ -1,0 +1,234 @@
+config:
+  target: "http://localhost:5000"
+  version: 'v2'
+  targetToken: "http://localhost:5000/api/v1/auth/login"
+  auth:
+    path: "./prerequisite-data/creator-users.csv"
+    fields:
+      - "username"
+      - "password"
+    order: "sequence"
+  phases:
+    - duration: 20
+      arrivalCount: 1
+
+  environments:
+    # LOCAL
+    local:
+      target: "http://localhost:5000"
+      version: 'v2'
+      targetToken: "http://localhost:5000/api/v1/auth/login"
+      phases:
+        - duration: 1
+          arrivalCount: 1
+      auth:
+        path: "./prerequisite-data/creator-users.csv"
+        fields:
+          - "username"
+          - "password"
+        order: "sequence"
+    # LOCAL02
+    local02:
+      target: "http://h1.eko02.local"
+      version: 'v2'
+      targetToken: "http://h1.eko02.local/api/v1/auth/login"
+      phases:
+        - duration: 20
+          arrivalCount: 1
+      auth:
+        path: "./prerequisite-data/local02/creator-users.csv"
+        fields:
+          - "username"
+          - "password"
+        order: "sequence"
+
+  processor: "processors/card-helpers.js"
+scenarios:
+  - engine: "eko"
+    flow:
+      ################ Share only me ###############
+      # Open + Favorite
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDatas"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Open"
+              - isFavorited: "true"
+        count: 7
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDataAllFiles"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Open"
+              - isFavorited: "true"
+        count: 1
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDataBulkFiles"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Open"
+              - isFavorited: "true"
+        count: 1
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDataBulkImages"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Open"
+              - isFavorited: "true"
+        count: 1
+
+      # Open + Not favorite
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDatas"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Open"
+              - isFavorited: "false"
+        count: 7
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDataAllFiles"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Open"
+              - isFavorited: "false"
+        count: 1
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDataBulkFiles"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Open"
+              - isFavorited: "false"
+        count: 1
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDataBulkImages"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Open"
+              - isFavorited: "false"
+        count: 1
+
+      # # Closed + Favorite
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDatas"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Closed"
+              - isFavorited: "true"
+        count: 7
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDataAllFiles"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Closed"
+              - isFavorited: "true"
+        count: 1
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDataBulkFiles"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Closed"
+              - isFavorited: "true"
+        count: 1
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDataBulkImages"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Closed"
+              - isFavorited: "true"
+        count: 1
+
+
+      # # Closed + Not favorite
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDatas"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Closed"
+              - isFavorited: "false"
+        count: 7
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDataAllFiles"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Closed"
+              - isFavorited: "false"
+        count: 1
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDataBulkFiles"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Closed"
+              - isFavorited: "false"
+        count: 1
+      - loop:
+        - function: "mockCardDueDate"
+        - function: "mockCardComponentDataBulkImages"
+        - send:
+            rpc: "v0/card.create"
+            params:
+              - components: "{{ components }}"
+                dueDate: "{{ dueDate }}"
+                status: "Closed"
+              - isFavorited: "false"
+        count: 1
+    ##############################################

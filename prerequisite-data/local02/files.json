@@ -1,0 +1,64 @@
+[{
+	"key": "e512a284b9dd469abff0544df94abfbc",
+	"meta": {
+		"filename": "file_example_doc",
+		"size": 224768,
+		"mimetype": "application/msword"
+	}
+}, {
+	"key": "6400dfacd40e43d6bd6b89154d15cf17",
+	"meta": {
+		"filename": "file_example_gif",
+		"size": 407297,
+		"mimetype": "image/gif"
+	}
+}, {
+	"key": "1b4fc7139eab4431b2837a2384f0b175",
+	"meta": {
+		"filename": "file_example_html",
+		"size": 4130,
+		"mimetype": "text/html"
+	}
+}, {
+	"key": "87ba8dba18e24294840ee390129edfa1",
+	"meta": {
+		"filename": "file_example_mp3",
+		"size": 6121568,
+		"mimetype": "audio/mpeg"
+	}
+}, {
+	"key": "be6ba2891566498b8bfd3267fe663b80",
+	"meta": {
+		"filename": "file_example_pdf",
+		"size": 185500,
+		"mimetype": "application/pdf"
+	}
+}, {
+	"key": "bcfd83995e8749d480b95e78ea1feae8",
+	"meta": {
+		"filename": "file_example_ppt",
+		"size": 914432,
+		"mimetype": "application/vnd.ms-powerpoint"
+	}
+}, {
+	"key": "86bf1cef95e74786a76dcb9450bbd30e",
+	"meta": {
+		"filename": "file_example_xls",
+		"size": 13824,
+		"mimetype": "application/vnd.ms-excel"
+	}
+}, {
+	"key": "43ef78a4fa444614bd33fab300d4cab7",
+	"meta": {
+		"filename": "file_example_xlsx",
+		"size": 11560,
+		"mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+	}
+}, {
+	"key": "f656f81076d2424cb7c74b09205011bb",
+	"meta": {
+		"filename": "file_example_zip",
+		"size": 5242880,
+		"mimetype": "application/zip"
+	}
+}]

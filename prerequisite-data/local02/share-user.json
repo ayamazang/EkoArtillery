@@ -1,0 +1,169 @@
+[{
+    "_id" : "5bdc10e9cbe9a209a1d61e19",
+    "username" : "mockdata003",
+    "firstname" : "Eberto",
+    "lastname" : "Wroe",
+    "email" : "ewroe2@nydailynews.com"
+}, {
+    "_id" : "5bdc10e9cbe9a2cb3bd61e1a",
+    "username" : "mockdata004",
+    "firstname" : "Amalee",
+    "lastname" : "Swalteridge",
+    "email" : "aswalteridge3@livejournal.com"
+}, {
+    "_id" : "5bdc10e9cbe9a26aa7d61e1b",
+    "username" : "mockdata005",
+    "firstname" : "Merry",
+    "lastname" : "Eyers",
+    "email" : "meyers4@hibu.com"
+}, {
+    "_id" : "5bdc10eacbe9a236f0d61e1c",
+    "username" : "mockdata006",
+    "firstname" : "Hali",
+    "lastname" : "Girth",
+    "email" : "hgirth5@arstechnica.com"
+}, {
+    "_id" : "5bdc10eacbe9a2fe0ad61e1d",
+    "username" : "mockdata007",
+    "firstname" : "Min",
+    "lastname" : "Grieves",
+    "email" : "mgrieves6@examiner.com"
+}, {
+    "_id" : "5bdc10eacbe9a2cd46d61e1e",
+    "username" : "mockdata008",
+    "firstname" : "Francisca",
+    "lastname" : "Jenson",
+    "email" : "fjenson7@columbia.edu"
+}, {
+    "_id" : "5bdc10eacbe9a2589cd61e1f",
+    "username" : "mockdata009",
+    "firstname" : "Fidelia",
+    "lastname" : "Vesty",
+    "email" : "fvesty8@house.gov"
+}, {
+    "_id" : "5bdc10ebcbe9a2e13fd61e20",
+    "username" : "mockdata010",
+    "firstname" : "Langsdon",
+    "lastname" : "Barabisch",
+    "email" : "lbarabisch9@theatlantic.com"
+}, {
+    "_id" : "5bdc10ebcbe9a281cdd61e21",
+    "username" : "mockdata011",
+    "firstname" : "Carlie",
+    "lastname" : "Boycott",
+    "email" : "cboycotta@china.com.cn"
+}, {
+    "_id" : "5bdc10ebcbe9a2379dd61e22",
+    "username" : "mockdata012",
+    "firstname" : "Elnora",
+    "lastname" : "Ventum",
+    "email" : "eventumb@japanpost.jp"
+}, {
+    "_id" : "5bdc10ebcbe9a2f188d61e23",
+    "username" : "mockdata013",
+    "firstname" : "Nadiya",
+    "lastname" : "Siman",
+    "email" : "nsimanc@blogger.com"
+}, {
+    "_id" : "5bdc10eccbe9a206acd61e24",
+    "username" : "mockdata014",
+    "firstname" : "Eric",
+    "lastname" : "Vannini",
+    "email" : "evanninid@alexa.com"
+}, {
+    "_id" : "5bdc10eccbe9a27314d61e25",
+    "username" : "mockdata015",
+    "firstname" : "Dee dee",
+    "lastname" : "Casewell",
+    "email" : "dcasewelle@ca.gov"
+}, {
+    "_id" : "5bdc10eccbe9a2e03bd61e26",
+    "username" : "mockdata016",
+    "firstname" : "Amii",
+    "lastname" : "Tripett",
+    "email" : "atripettf@fda.gov"
+}, {
+    "_id" : "5bdc10eccbe9a20936d61e27",
+    "username" : "mockdata017",
+    "firstname" : "Virginie",
+    "lastname" : "Woolford",
+    "email" : "vwoolfordg@wisc.edu"
+}, {
+    "_id" : "5bdc10edcbe9a26233d61e28",
+    "username" : "mockdata018",
+    "firstname" : "Obadiah",
+    "lastname" : "Handes",
+    "email" : "ohandesh@yelp.com"
+}, {
+    "_id" : "5bdc10edcbe9a27958d61e29",
+    "username" : "mockdata019",
+    "firstname" : "Brodie",
+    "lastname" : "Jest",
+    "email" : "bjesti@mtv.com"
+}, {
+    "_id" : "5bdc10edcbe9a28fb0d61e2a",
+    "username" : "mockdata020",
+    "firstname" : "Penni",
+    "lastname" : "Gambrell",
+    "email" : "pgambrellj@china.com.cn"
+}, {
+    "_id" : "5bdc10eecbe9a23737d61e2b",
+    "username" : "mockdata021",
+    "firstname" : "Rudie",
+    "lastname" : "Grundell",
+    "email" : "rgrundellk@csmonitor.com"
+}, {
+    "_id" : "5bdc10eecbe9a21367d61e2c",
+    "username" : "mockdata022",
+    "firstname" : "Griffie",
+    "lastname" : "Bosma",
+    "email" : "gbosmal@hugedomains.com"
+}, {
+    "_id" : "5bdc10eecbe9a241bfd61e2d",
+    "username" : "mockdata023",
+    "firstname" : "Standford",
+    "lastname" : "Lauritzen",
+    "email" : "slauritzenm@facebook.com"
+}, {
+    "_id" : "5bdc10eecbe9a24898d61e2e",
+    "username" : "mockdata024",
+    "firstname" : "Valina",
+    "lastname" : "Gommery",
+    "email" : "vgommeryn@php.net"
+}, {
+    "_id" : "5bdc10efcbe9a2b48ad61e2f",
+    "username" : "mockdata025",
+    "firstname" : "Bruis",
+    "lastname" : "Ornelas",
+    "email" : "bornelaso@lycos.com"
+}, {
+    "_id" : "5bdc10efcbe9a2383cd61e30",
+    "username" : "mockdata026",
+    "firstname" : "Kala",
+    "lastname" : "Kohneke",
+    "email" : "kkohnekep@behance.net"
+}, {
+    "_id" : "5bdc10efcbe9a23eefd61e31",
+    "username" : "mockdata027",
+    "firstname" : "Fons",
+    "lastname" : "Kember",
+    "email" : "fkemberq@comsenz.com"
+}, {
+    "_id" : "5bdc10f0cbe9a288d9d61e32",
+    "username" : "mockdata028",
+    "firstname" : "Almire",
+    "lastname" : "Rodolico",
+    "email" : "arodolicor@cdbaby.com"
+}, {
+    "_id" : "5bdc10f0cbe9a2eb40d61e33",
+    "username" : "mockdata029",
+    "firstname" : "Kippie",
+    "lastname" : "Churchley",
+    "email" : "kchurchleys@boston.com"
+}, {
+    "_id" : "5bdc10f1cbe9a2824bd61e34",
+    "username" : "mockdata030",
+    "firstname" : "Loralyn",
+    "lastname" : "Tettley",
+    "email" : "ltettleyt@bloglovin.com"
+}]
